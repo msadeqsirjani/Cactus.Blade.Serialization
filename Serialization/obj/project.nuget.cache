@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "aoCzQedcBMXAv6yz5MBPn2lxUgS9Jo0Jm4eeXH/7OJZ+TH2FjAtz7eG7tN4at8GTPf1EpCAJBTspIGv0v7uwPg==",
+  "success": true,
+  "projectFilePath": "D:\\Job\\Code\\C#\\Cactus Packages\\Cactus.Blade\\Project\\Serializer\\Cactus.Blade.Serializer\\Serialization\\Serialization.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pc\\.nuget\\packages\\cactus.blade.immutable\\1.2.0\\cactus.blade.immutable.1.2.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\cactus.blade.threading\\1.2.0\\cactus.blade.threading.1.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

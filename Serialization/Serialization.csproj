@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Version>1.2.0</Version>
+    <Authors>Mohammad Sadeq Sirjani</Authors>
+    <AssemblyName>Cactus.Blade.Serialization</AssemblyName>
+    <RootNamespace>Cactus.Blade.Serialization</RootNamespace>
+    <Product>Cactus</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cactus.Blade.Immutable" Version="1.2.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "Cactus.Blade.Immutable/1.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Cactus.Blade.Threading": "1.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Cactus.Blade.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Cactus.Blade.Immutable.dll": {}
+        }
+      },
+      "Cactus.Blade.Threading/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Cactus.Blade.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Cactus.Blade.Threading.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cactus.Blade.Immutable/1.2.0": {
+      "sha512": "FD5f8+A3D5Sf5txtics2NI/irjjTcLVZfwFB/8e2fL87zw2HtbMXZW9jh2D5TBjEgjVW5tPK572y0ZFr/k+ahg==",
+      "type": "package",
+      "path": "cactus.blade.immutable/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "cactus.blade.immutable.1.2.0.nupkg.sha512",
+        "cactus.blade.immutable.nuspec",
+        "cactus.png",
+        "lib/netstandard2.1/Cactus.Blade.Immutable.dll"
+      ]
+    },
+    "Cactus.Blade.Threading/1.2.0": {
+      "sha512": "x1x5KsrWmm5WbJ/vwTlmhLyFdH6b2lJ6EswNZF785Rn2R8BCvn5yRUKB51WFsjTHwf9asbz1TisBkbEtIGsXGA==",
+      "type": "package",
+      "path": "cactus.blade.threading/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "cactus.blade.threading.1.2.0.nupkg.sha512",
+        "cactus.blade.threading.nuspec",
+        "cactus.png",
+        "lib/netstandard2.1/Cactus.Blade.Threading.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Cactus.Blade.Immutable >= 1.2.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pc\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.2.0",
+    "restore": {
+      "projectUniqueName": "D:\\Job\\Code\\C#\\Cactus Packages\\Cactus.Blade\\Project\\Serializer\\Cactus.Blade.Serializer\\Serialization\\Serialization.csproj",
+      "projectName": "Cactus.Blade.Serialization",
+      "projectPath": "D:\\Job\\Code\\C#\\Cactus Packages\\Cactus.Blade\\Project\\Serializer\\Cactus.Blade.Serializer\\Serialization\\Serialization.csproj",
+      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+      "outputPath": "D:\\Job\\Code\\C#\\Cactus Packages\\Cactus.Blade\\Project\\Serializer\\Cactus.Blade.Serializer\\Serialization\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "dependencies": {
+          "Cactus.Blade.Immutable": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

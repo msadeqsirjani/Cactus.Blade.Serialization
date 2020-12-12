@@ -1,10 +1,10 @@
 language: csharp
 mono: none
 dotnet: 2.1.502
-solution: Cactus.Blade.ValueObject.sln
+solution: Cactus.Blade.Serialization.sln
 install:
   - dotnet restore
 script:
-  - dotnet msbuild /p:Configuration=Release Cactus.Blade.ValueObject.sln
+  - dotnet msbuild /p:Configuration=Release Cactus.Blade.Serialization.sln
   - dotnet restore
-  - dotnet test ValueObject.Test/ValueObject.Test.csproj
+  - dotnet test Serialization.Test/Serialization.Test.csproj

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Job\\Code\\C#\\Cactus Packages\\Cactus.Blade\\Project\\Serializer\\Cactus.Blade.Serializer\\Serialization\\Serialization.csproj": {}
+    "D:\\Job\\Code\\C#\\Cactus Packages\\Cactus.Blade.Serialization\\Serialization\\Serialization.csproj": {}
   },
   "projects": {
-    "D:\\Job\\Code\\C#\\Cactus Packages\\Cactus.Blade\\Project\\Serializer\\Cactus.Blade.Serializer\\Serialization\\Serialization.csproj": {
+    "D:\\Job\\Code\\C#\\Cactus Packages\\Cactus.Blade.Serialization\\Serialization\\Serialization.csproj": {
       "version": "1.2.0",
       "restore": {
-        "projectUniqueName": "D:\\Job\\Code\\C#\\Cactus Packages\\Cactus.Blade\\Project\\Serializer\\Cactus.Blade.Serializer\\Serialization\\Serialization.csproj",
+        "projectUniqueName": "D:\\Job\\Code\\C#\\Cactus Packages\\Cactus.Blade.Serialization\\Serialization\\Serialization.csproj",
         "projectName": "Cactus.Blade.Serialization",
-        "projectPath": "D:\\Job\\Code\\C#\\Cactus Packages\\Cactus.Blade\\Project\\Serializer\\Cactus.Blade.Serializer\\Serialization\\Serialization.csproj",
+        "projectPath": "D:\\Job\\Code\\C#\\Cactus Packages\\Cactus.Blade.Serialization\\Serialization\\Serialization.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Job\\Code\\C#\\Cactus Packages\\Cactus.Blade\\Project\\Serializer\\Cactus.Blade.Serializer\\Serialization\\obj\\",
+        "outputPath": "D:\\Job\\Code\\C#\\Cactus Packages\\Cactus.Blade.Serialization\\Serialization\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,33 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "dependencies": {
+            "Cactus.Blade.Configuration": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "Cactus.Blade.Configuration.ObjectFactory": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Cactus.Blade.Core": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Cactus.Blade.Guard": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
             "Cactus.Blade.Immutable": {
               "target": "Package",
               "version": "[1.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Xml.XmlSerializer": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [

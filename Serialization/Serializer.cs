@@ -1,5 +1,6 @@
-﻿using Immutable;
-using Serialization;
+﻿using Cactus.Blade.Configuration;
+using Cactus.Blade.Configuration.ObjectFactory;
+using Immutable;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -31,7 +32,7 @@ namespace Cactus.Blade.Serialization
             var serializers = Config.Root.GetCompositeSection("RockLib_Serialization:JsonSerializers", "RockLib.Serialization:JsonSerializers")
                 .Create<List<ISerializer>>(new DefaultTypes().Add(typeof(ISerializer), typeof(DefaultJsonSerializer)));
 
-            return serializers == null || serializers.Count == 0
+            return serializers.IsNull() || serializers.Count == 0
                 ? new Dictionary<string, ISerializer> { { "default", new DefaultJsonSerializer() } }
                 : serializers.ToDictionary(s => s.Name);
         }
@@ -41,7 +42,7 @@ namespace Cactus.Blade.Serialization
             var serializers = Config.Root.GetCompositeSection("RockLib_Serialization:XmlSerializers", "RockLib.Serialization:XmlSerializers")
                 .Create<IReadOnlyList<ISerializer>>(new DefaultTypes().Add(typeof(ISerializer), typeof(DefaultXmlSerializer)));
 
-            return serializers == null || serializers.Count == 0
+            return serializers.IsNull() || serializers.Count == 0
                 ? new Dictionary<string, ISerializer> { { "default", new DefaultXmlSerializer() } }
                 : serializers.ToDictionary(s => s.Name);
         }

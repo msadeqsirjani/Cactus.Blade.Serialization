@@ -7,10 +7,38 @@
     <AssemblyName>Cactus.Blade.Serialization</AssemblyName>
     <RootNamespace>Cactus.Blade.Serialization</RootNamespace>
     <Product>Cactus</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageIcon>cactus.png</PackageIcon>
+    <NeutralLanguage>C#</NeutralLanguage>
+    <Copyright>@CopyRight 2020</Copyright>
+    <PackageProjectUrl>https://github.com/mohammadsadeqsirjani/Cactus.Blade.Serialization</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mohammadsadeqsirjani/Cactus.Blade.Serialization</RepositoryUrl>
+    <RepositoryType>https://github.com/mohammadsadeqsirjani/Cactus.Blade.Serialization</RepositoryType>
+    <Description>A simple serialization abstraction with To and From extensions.</Description>
+    <PackageReleaseNotes>A simple serialization abstraction with To and From extensions.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Cactus.Blade.Configuration" Version="1.2.1" />
+    <PackageReference Include="Cactus.Blade.Configuration.ObjectFactory" Version="1.2.0" />
+    <PackageReference Include="Cactus.Blade.Core" Version="1.2.0" />
+    <PackageReference Include="Cactus.Blade.Guard" Version="1.2.0" />
     <PackageReference Include="Cactus.Blade.Immutable" Version="1.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Image\cactus.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

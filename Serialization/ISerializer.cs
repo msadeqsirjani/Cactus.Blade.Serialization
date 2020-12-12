@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Serialization
+namespace Cactus.Blade.Serialization
 {
     /// <summary>
     /// Defines a common interface for general-purpose serialization.

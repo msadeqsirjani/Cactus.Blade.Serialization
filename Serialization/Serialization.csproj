@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <Version>1.2.0</Version>
+    <Version>1.2.2</Version>
     <Authors>Mohammad Sadeq Sirjani</Authors>
     <AssemblyName>Cactus.Blade.Serialization</AssemblyName>
     <RootNamespace>Cactus.Blade.Serialization</RootNamespace>
@@ -12,7 +12,7 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageIcon>cactus.png</PackageIcon>
     <NeutralLanguage>C#</NeutralLanguage>
-    <Copyright>@CopyRight 2020</Copyright>
+    <Copyright>@Copyright 2020</Copyright>
     <PackageProjectUrl>https://github.com/mohammadsadeqsirjani/Cactus.Blade.Serialization</PackageProjectUrl>
     <RepositoryUrl>https://github.com/mohammadsadeqsirjani/Cactus.Blade.Serialization</RepositoryUrl>
     <RepositoryType>https://github.com/mohammadsadeqsirjani/Cactus.Blade.Serialization</RepositoryType>
@@ -21,11 +21,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Cactus.Blade.Configuration" Version="1.2.1" />
-    <PackageReference Include="Cactus.Blade.Configuration.ObjectFactory" Version="1.2.0" />
+    <PackageReference Include="Cactus.Blade.Configuration" Version="1.2.2" />
+    <PackageReference Include="Cactus.Blade.Configuration.ObjectFactory" Version="1.2.2" />
     <PackageReference Include="Cactus.Blade.Core" Version="1.2.0" />
     <PackageReference Include="Cactus.Blade.Guard" Version="1.2.0" />
-    <PackageReference Include="Cactus.Blade.Immutable" Version="1.2.0" />
+    <PackageReference Include="Cactus.Blade.Immutable" Version="1.2.1" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="System.Xml.XmlSerializer" Version="4.3.0" />
   </ItemGroup>

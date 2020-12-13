@@ -2,8 +2,11 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.1": {
-      "Cactus.Blade.Collection/1.2.1": {
+      "Cactus.Blade.Collection/1.2.2": {
         "type": "package",
+        "dependencies": {
+          "Cactus.Blade.Guard": "1.2.0"
+        },
         "compile": {
           "lib/netstandard2.1/Cactus.Blade.Collection.dll": {}
         },
@@ -11,11 +14,11 @@
           "lib/netstandard2.1/Cactus.Blade.Collection.dll": {}
         }
       },
-      "Cactus.Blade.Configuration/1.2.1": {
+      "Cactus.Blade.Configuration/1.2.2": {
         "type": "package",
         "dependencies": {
           "Cactus.Blade.Core": "1.2.0",
-          "Cactus.Blade.Immutable": "1.2.0",
+          "Cactus.Blade.Immutable": "1.2.1",
           "Microsoft.AspNetCore.Hosting": "2.2.7",
           "Microsoft.Extensions.Configuration": "5.0.0",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "5.0.0",
@@ -28,10 +31,10 @@
           "lib/netstandard2.1/Cactus.Blade.Configuration.dll": {}
         }
       },
-      "Cactus.Blade.Configuration.ObjectFactory/1.2.0": {
+      "Cactus.Blade.Configuration.ObjectFactory/1.2.2": {
         "type": "package",
         "dependencies": {
-          "Cactus.Blade.Collection": "1.2.1",
+          "Cactus.Blade.Collection": "1.2.2",
           "Cactus.Blade.Core": "1.2.0",
           "Microsoft.Extensions.Configuration": "5.0.0"
         },
@@ -63,7 +66,7 @@
           "lib/netstandard2.1/Cactus.Blade.Guard.dll": {}
         }
       },
-      "Cactus.Blade.Immutable/1.2.0": {
+      "Cactus.Blade.Immutable/1.2.1": {
         "type": "package",
         "dependencies": {
           "Cactus.Blade.Threading": "1.2.0"
@@ -956,43 +959,43 @@
     }
   },
   "libraries": {
-    "Cactus.Blade.Collection/1.2.1": {
-      "sha512": "Z8zklujt3D0lSBpRLEIycbjadj4Ksh8crupIPdgbEX+bQCsmYon0bV+asQvIOXhctYqCK5O9TPRekhAnXkStPw==",
+    "Cactus.Blade.Collection/1.2.2": {
+      "sha512": "7v8MWFO/pXI7jZoUrCpqNqR+LMKv/D66RyvDw61MIPixAepQPf0iAIahEy8EFr72UEGrM8Dj/Nhl93ZNml8a/A==",
       "type": "package",
-      "path": "cactus.blade.collection/1.2.1",
+      "path": "cactus.blade.collection/1.2.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "cactus.blade.collection.1.2.1.nupkg.sha512",
+        "cactus.blade.collection.1.2.2.nupkg.sha512",
         "cactus.blade.collection.nuspec",
         "cactus.png",
         "lib/netstandard2.1/Cactus.Blade.Collection.dll"
       ]
     },
-    "Cactus.Blade.Configuration/1.2.1": {
-      "sha512": "azoECmQ6rUifmo5EQfG45olkO/74nO1pSQjCGJfUyyX22Mz4vc/OKUqa72oLxJrBbjw1Fp1hbe/zkFm950CGVQ==",
+    "Cactus.Blade.Configuration/1.2.2": {
+      "sha512": "NkR63I60t/xPzYy7x426W0IkoJnt6ySSqdettQmGpRsPczOQtKIaPjCupUSs3YX+CKXMChciuei99d8DK2VjNg==",
       "type": "package",
-      "path": "cactus.blade.configuration/1.2.1",
+      "path": "cactus.blade.configuration/1.2.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "cactus.blade.configuration.1.2.1.nupkg.sha512",
+        "cactus.blade.configuration.1.2.2.nupkg.sha512",
         "cactus.blade.configuration.nuspec",
         "cactus.png",
         "lib/netstandard2.1/Cactus.Blade.Configuration.dll"
       ]
     },
-    "Cactus.Blade.Configuration.ObjectFactory/1.2.0": {
-      "sha512": "70TVasXCRbgf4Y//Yp2Y7miekWKSeNMGaHtT2z8Zqu1aDKO92HZqH6UeA+djmyoISo4xJr3/NMVCwwbMamQ8qA==",
+    "Cactus.Blade.Configuration.ObjectFactory/1.2.2": {
+      "sha512": "mEUd/i+jV45xNO83mSHaobAAN+JRus6MD3wxLqG1bpXRWpP+lopQhrvinL3WC/6Ut4LqPDslOWSs7OWfAApc2g==",
       "type": "package",
-      "path": "cactus.blade.configuration.objectfactory/1.2.0",
+      "path": "cactus.blade.configuration.objectfactory/1.2.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "cactus.blade.configuration.objectfactory.1.2.0.nupkg.sha512",
+        "cactus.blade.configuration.objectfactory.1.2.2.nupkg.sha512",
         "cactus.blade.configuration.objectfactory.nuspec",
         "cactus.png",
         "lib/netstandard2.1/Cactus.Blade.Configuration.ObjectFactory.dll"
@@ -1026,15 +1029,15 @@
         "lib/netstandard2.1/Cactus.Blade.Guard.dll"
       ]
     },
-    "Cactus.Blade.Immutable/1.2.0": {
-      "sha512": "FD5f8+A3D5Sf5txtics2NI/irjjTcLVZfwFB/8e2fL87zw2HtbMXZW9jh2D5TBjEgjVW5tPK572y0ZFr/k+ahg==",
+    "Cactus.Blade.Immutable/1.2.1": {
+      "sha512": "1DDU8UVeJ6vI3tfjU9ay70+aexb+yP5sgdlTbhBA+O/4PTvQv1+6IrUqRwpj3ZttGMepp9TTx0BoK07rBpLEUw==",
       "type": "package",
-      "path": "cactus.blade.immutable/1.2.0",
+      "path": "cactus.blade.immutable/1.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "cactus.blade.immutable.1.2.0.nupkg.sha512",
+        "cactus.blade.immutable.1.2.1.nupkg.sha512",
         "cactus.blade.immutable.nuspec",
         "cactus.png",
         "lib/netstandard2.1/Cactus.Blade.Immutable.dll"
@@ -3591,11 +3594,11 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "Cactus.Blade.Configuration >= 1.2.1",
-      "Cactus.Blade.Configuration.ObjectFactory >= 1.2.0",
+      "Cactus.Blade.Configuration >= 1.2.2",
+      "Cactus.Blade.Configuration.ObjectFactory >= 1.2.2",
       "Cactus.Blade.Core >= 1.2.0",
       "Cactus.Blade.Guard >= 1.2.0",
-      "Cactus.Blade.Immutable >= 1.2.0",
+      "Cactus.Blade.Immutable >= 1.2.1",
       "Newtonsoft.Json >= 12.0.3",
       "System.Xml.XmlSerializer >= 4.3.0"
     ]
@@ -3604,7 +3607,7 @@
     "C:\\Users\\pc\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.2.0",
+    "version": "1.2.2",
     "restore": {
       "projectUniqueName": "D:\\Job\\Code\\C#\\Cactus Packages\\Cactus.Blade.Serialization\\Serialization\\Serialization.csproj",
       "projectName": "Cactus.Blade.Serialization",
@@ -3641,11 +3644,11 @@
         "dependencies": {
           "Cactus.Blade.Configuration": {
             "target": "Package",
-            "version": "[1.2.1, )"
+            "version": "[1.2.2, )"
           },
           "Cactus.Blade.Configuration.ObjectFactory": {
             "target": "Package",
-            "version": "[1.2.0, )"
+            "version": "[1.2.2, )"
           },
           "Cactus.Blade.Core": {
             "target": "Package",
@@ -3657,7 +3660,7 @@
           },
           "Cactus.Blade.Immutable": {
             "target": "Package",
-            "version": "[1.2.0, )"
+            "version": "[1.2.1, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",

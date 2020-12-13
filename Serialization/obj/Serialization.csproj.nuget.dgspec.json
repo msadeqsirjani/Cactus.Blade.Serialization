@@ -5,7 +5,7 @@
   },
   "projects": {
     "D:\\Job\\Code\\C#\\Cactus Packages\\Cactus.Blade.Serialization\\Serialization\\Serialization.csproj": {
-      "version": "1.2.0",
+      "version": "1.2.2",
       "restore": {
         "projectUniqueName": "D:\\Job\\Code\\C#\\Cactus Packages\\Cactus.Blade.Serialization\\Serialization\\Serialization.csproj",
         "projectName": "Cactus.Blade.Serialization",
@@ -42,11 +42,11 @@
           "dependencies": {
             "Cactus.Blade.Configuration": {
               "target": "Package",
-              "version": "[1.2.1, )"
+              "version": "[1.2.2, )"
             },
             "Cactus.Blade.Configuration.ObjectFactory": {
               "target": "Package",
-              "version": "[1.2.0, )"
+              "version": "[1.2.2, )"
             },
             "Cactus.Blade.Core": {
               "target": "Package",
@@ -58,7 +58,7 @@
             },
             "Cactus.Blade.Immutable": {
               "target": "Package",
-              "version": "[1.2.0, )"
+              "version": "[1.2.1, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
